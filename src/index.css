@@ -15,7 +15,7 @@ body {
   font-size: 2rem;
   height: 100vh;
   color: #222;
-  background-color: #eabfb9;
+  background-color: teal;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,9 +28,10 @@ body {
   width: 112rem;
   gap: 4rem;
   padding: 6rem 0;
-  border: 2px solid #222;
-  outline: 2px solid #222;
+  border: 2px soliD rgb(0, 255, 255);
+  outline: 2px solid rgb(53, 233, 233);
   outline-offset: 1.2rem;
+  color: white;
 }
 
 h1 {
@@ -49,14 +50,15 @@ input {
   font-family: inherit;
   color: inherit;
   font-size: 2rem;
-  background-color: #f0d2ce;
+  background-color: rgb(3, 41, 41);
   padding: 1.6rem 3.2rem;
   border: none;
+  text-align: center;
   width: 32rem;
 }
 
 input:focus {
-  outline: 2px solid #222;
+  outline: 2px solid rgb(0, 149, 149);
 }
 
 .weather {
