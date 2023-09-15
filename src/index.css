@@ -68,7 +68,7 @@ input:focus {
 }
 
 .day {
-  background-color: #f0d2ce;
+  background-color: #060302;
   padding: 1.6rem 0 2rem;
   width: 12.8rem;
 
@@ -84,7 +84,7 @@ input:focus {
 }
 
 .day.important {
-  background-color: #ecc5c0;
+  background-color: #251917;
   outline: 2px solid #222;
 }
 
